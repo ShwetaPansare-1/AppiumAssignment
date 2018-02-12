@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Flipkart",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 1,
+        "name": "TestingFlipkart",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.TestingFlipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1517824769893,
+      "duration": 18852,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

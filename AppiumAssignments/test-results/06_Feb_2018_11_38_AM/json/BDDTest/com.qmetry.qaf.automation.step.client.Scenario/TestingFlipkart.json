@@ -1,0 +1,63 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "closeAuth",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user search for 'apple ipad' in search",
+      "args": [
+        "[apple ipad]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify the product",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user skip the authentication",
+      "type": "TestStepFail",
+      "duration": 31656,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\njava.lang.reflect.InvocationTargetException\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11471', ip: '10.11.31.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user search for 'apple ipad' in search",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the product",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\njava.lang.reflect.InvocationTargetException\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11471', ip: '10.11.31.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: driver.version: unknown\r\n\tat .Given user skip the authentication(scenarios/suite1.bdd:5)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:265)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:86)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:93)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:62)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:58)\r\n\tat com.testautomation.pages.HomescreenTestPage.<init>(HomescreenTestPage.java:10)\r\n\tat java.lang.Class.newInstance(Unknown Source)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

@@ -1,0 +1,606 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "closeAuth",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 2406
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 3]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1137
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "SearchtheDetails",
+      "args": [
+        "[apple ipad]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 1818
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_widget_textbox",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3141
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "[id: 6]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/search_autoCompleteTextView",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_autoCompleteTextView",
+            "{\"id\":\"8\",\"value\":[\"apple ipad\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 5610
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "SelectIpadOption",
+      "args": [
+        "[apple ipad in Tablets]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='apple ipad in Tablets'], using=xpath}"
+          ],
+          "result": "[id: 9, id: 10]",
+          "subLogs": [],
+          "duration": 1523
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='apple ipad in Tablets'], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 100
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='apple ipad in Tablets']",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='apple ipad in Tablets'], using=xpath}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='apple ipad in Tablets']",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 129
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Searchthelist",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1324
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 13, id: 14, id: 15]",
+          "subLogs": [],
+          "duration": 149
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 16, id: 17, id: 18]",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 19, id: 20, id: 21]",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 22, id: 23, id: 24]",
+          "subLogs": [],
+          "duration": 346
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc='product_list']",
+            "{\"id\":\"23\"}"
+          ],
+          "result": "getElementText:",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 25, id: 26, id: 27]",
+          "subLogs": [],
+          "duration": 135
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 28, id: 29, id: 30]",
+          "subLogs": [],
+          "duration": 134
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc='product_list']",
+            "{\"id\":\"30\"}"
+          ],
+          "result": "getElementText:",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 31, id: 32, id: 33]",
+          "subLogs": [],
+          "duration": 220
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 34, id: 35, id: 36]",
+          "subLogs": [],
+          "duration": 123
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 37, id: 38, id: 39]",
+          "subLogs": [],
+          "duration": 127
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 40, id: 41, id: 42]",
+          "subLogs": [],
+          "duration": 76
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 43, id: 44, id: 45]",
+          "subLogs": [],
+          "duration": 121
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 46, id: 47, id: 48]",
+          "subLogs": [],
+          "duration": 109
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 49, id: 50, id: 51]",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 52, id: 53, id: 54]",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 55, id: 56, id: 57]",
+          "subLogs": [],
+          "duration": 165
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 58, id: 59, id: 60]",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 61, id: 62, id: 63]",
+          "subLogs": [],
+          "duration": 72
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 64, id: 65, id: 66]",
+          "subLogs": [],
+          "duration": 71
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 67, id: 68, id: 69]",
+          "subLogs": [],
+          "duration": 142
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 70, id: 71, id: 72]",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 73, id: 74, id: 75]",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 76, id: 77, id: 78]",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 79, id: 80, id: 81]",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 82, id: 83, id: 84]",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 85, id: 86, id: 87]",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 88, id: 89, id: 90]",
+          "subLogs": [],
+          "duration": 85
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 91, id: 92, id: 93]",
+          "subLogs": [],
+          "duration": 105
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 94, id: 95, id: 96]",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 97, id: 98, id: 99]",
+          "subLogs": [],
+          "duration": 98
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 100, id: 101, id: 102]",
+          "subLogs": [],
+          "duration": 125
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 103, id: 104, id: 105]",
+          "subLogs": [],
+          "duration": 125
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 106, id: 107, id: 108]",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 109, id: 110, id: 111]",
+          "subLogs": [],
+          "duration": 131
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 112, id: 113, id: 114]",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 115, id: 116, id: 117]",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 118, id: 119, id: 120]",
+          "subLogs": [],
+          "duration": 93
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user skip the authentication",
+      "type": "TestStepPass",
+      "duration": 15183,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user search for 'apple ipad' in search",
+      "type": "TestStepPass",
+      "duration": 10690,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user clicks on 'apple ipad in Tablets' in search",
+      "type": "TestStepPass",
+      "duration": 1852,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user gets the product list",
+      "type": "TestStepFail",
+      "screenshot": "test-results/08_Feb_2018_12_03_PM/img/TestingFlipkart_1d0io8qo8tv9232536.png",
+      "duration": 34662,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds: Wait timeout for list of product button with size 4\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11471', ip: '10.11.31.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait timeout for list of product button with size 4\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11471', ip: '10.11.31.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: driver.version: unknown\r\n\tat .When user gets the product list(scenarios/suite1.bdd:8)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ComponentListHandler.invoke(ComponentListHandler.java:83)\r\n\tat com.sun.proxy.$Proxy28.get(Unknown Source)\r\n\tat com.testautomation.pages.SearchscreenTestPage.Searchthelist(SearchscreenTestPage.java:100)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

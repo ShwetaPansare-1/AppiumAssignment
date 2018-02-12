@@ -1,0 +1,18 @@
+18:48:05 scenario.file.loc[Ljava.lang.String;@517cd4b
+18:48:05 loading BDD file: scenarios/suite1.bdd
+18:48:05 total test found: 1
+18:48:05 
+
+Executing scenario: TestingFlipkart - Flipkart
+18:48:05 pkg: com.qmetry.qaf.automation.step
+18:48:05 pkg: com.testautomation
+18:48:05 Found duplicate step to load [] with [lower] prority then []
+18:48:05 Invoking Teststep: Given user skip the authentication
+18:48:19 Completed Teststep: Given user skip the authentication
+18:48:19 Invoking Teststep: When user search for 'apple ipad' in search with arguments: [apple ipad]
+18:48:30 Completed Teststep: When user search for 'apple ipad' in search with arguments: [apple ipad]
+18:48:30 Invoking Teststep: And user clicks on 'apple ipad in Tablets' in search with arguments: [apple ipad in Tablets]
+18:48:31 Completed Teststep: And user clicks on 'apple ipad in Tablets' in search with arguments: [apple ipad in Tablets]
+18:48:31 Invoking Teststep: Then user verify the product
+18:48:34 Completed Teststep: Then user verify the product
+18:48:34 Competed scenario: TestingFlipkart with status SUCESS

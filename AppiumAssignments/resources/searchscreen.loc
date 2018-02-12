@@ -1,0 +1,6 @@
+search.txt.search = {\"locator\":\"id=com.flipkart.android:id/search_autoCompleteTextView\",\"desc\":\"search button\"}
+searchpage.btn.search = {\"locator\":\"id=com.flipkart.android:id/search_widget_textbox\",\"desc\":\"search button\"}
+search.lnk.appleipadintablets = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"search list\"}
+search.lst.searchProduct = {\"locator\":\"xpath=//android.widget.LinearLayout[@content-desc='product_list']\",\"desc\":\"product button\"}
+search.btn.addtocart = {\"locator\":\"id=com.flipkart.android:id/product_addtocart_1\",\"desc\":\"Add To Cart button\"}
+search.link.cartverify = {\"locator\":\"xpath=//android.view.View[@content-desc=\\\"Apple iPad 32 GB 9.7 inch with Wi-Fi Only\\\"]\",\"desc\":\"added product inside the cart\"}

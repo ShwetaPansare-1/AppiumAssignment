@@ -1,0 +1,197 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "closeAuth",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 2002
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 3]",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1049
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "SearchtheDetails",
+      "args": [
+        "[Apple Ipad]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 1489
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_widget_textbox",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3928
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "[id: 6]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/search_autoCompleteTextView",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_autoCompleteTextView",
+            "{\"id\":\"8\",\"value\":[\"Apple Ipad\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 5700
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 852
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_autoCompleteTextView",
+            "{\"id\":\"9\",\"value\":[{}]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 9464
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Searchthelist",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user skip the authentication",
+      "type": "TestStepPass",
+      "duration": 13710,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user search for 'Apple Ipad' in search",
+      "type": "TestStepPass",
+      "duration": 21612,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the product",
+      "type": "TestStepPass",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.flipkart.android",
+      "deviceName": "192.168.227.101.5555",
+      "appActivity": "com.flipkart.android.activity.HomeFragmentHolderActivity",
+      "browser_name": "",
+      "appium-version": "4.1.2",
+      "newCommandTimeout": "120",
+      "automationName": "appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "platformName": "Android",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "appPackage": "com.flipkart.android",
+      "deviceScreenSize": "1080x1920",
+      "networkConnectionEnabled": "true",
+      "warnings": "{}",
+      "databaseEnabled": "false",
+      "deviceName": "192.168.227.101:5555",
+      "platform": "LINUX",
+      "deviceUDID": "192.168.227.101:5555",
+      "appActivity": "com.flipkart.android.activity.HomeFragmentHolderActivity",
+      "browser_name": "",
+      "desired": "{appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.227.101.5555, cssSelectorsEnabled=true}",
+      "appium-version": "4.1.2",
+      "newCommandTimeout": "120",
+      "platformVersion": "5.0",
+      "webStorageEnabled": "false",
+      "locationContextEnabled": "false",
+      "automationName": "appium",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "deviceModel": "Google Nexus 5 - 5.0.0 - API 21 - 1080x1920",
+      "platformName": "Android",
+      "deviceManufacturer": "unknown",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "scenarios/suite1.bdd",
+      "baseurl": "http://localhost:4725/wd/hub"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_152",
+      "os.arch": "amd64",
+      "host": "ICPL11471",
+      "os.name": "Windows 10",
+      "user.name": "shwetambari.pansare",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1518086697032,
+  "endTime": 1518086699859
+}

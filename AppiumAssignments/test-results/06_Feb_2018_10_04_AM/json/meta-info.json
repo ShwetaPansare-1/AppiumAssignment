@@ -1,0 +1,13 @@
+{
+  "name": "TestAutomation.scenarios.suite1.bdd",
+  "status": "fail",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1517891691912,
+  "endTime": 1517891756928
+}

@@ -1,0 +1,379 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "closeAuth",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1240
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 256
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 1934
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 3]",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1919
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "SearchtheDetails",
+      "args": [
+        "[apple ipad]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 960
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_widget_textbox",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 154
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "[id: 6]",
+          "subLogs": [],
+          "duration": 1670
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/search_autoCompleteTextView",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_autoCompleteTextView, using=id}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_autoCompleteTextView",
+            "{\"id\":\"8\",\"value\":[\"apple ipad\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 5017
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "SelectIpadOption",
+      "args": [
+        "[apple ipad in Tablets]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='apple ipad in Tablets'], using=xpath}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 902
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='apple ipad in Tablets'], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='apple ipad in Tablets']",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='apple ipad in Tablets'], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='apple ipad in Tablets']",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 143
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "productdetails",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 12, id: 13, id: 14]",
+          "subLogs": [],
+          "duration": 2451
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 15, id: 16, id: 17]",
+          "subLogs": [],
+          "duration": 174
+        },
+        {
+          "commandName": "getElementLocation",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc='product_list']",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "getElementLocation:{x=0, y=547}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementLocation",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc='product_list']",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "getElementLocation:{x=0, y=547}",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 18, id: 19, id: 20, id: 21]",
+          "subLogs": [],
+          "duration": 745
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc='product_list'], using=xpath}"
+          ],
+          "result": "[id: 22, id: 23, id: 24, id: 25]",
+          "subLogs": [],
+          "duration": 137
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc='product_list']",
+            "{\"using\":\"xpath\",\"id\":\"22\",\"value\":\"//android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElement:id: 26",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "id: 26",
+            "{\"id\":\"26\"}"
+          ],
+          "result": "getElementText:EMI",
+          "subLogs": [],
+          "duration": 41
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "When user clicks on addtocart button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user skip the authentication",
+      "type": "TestStepPass",
+      "duration": 18365,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user search for 'apple ipad' in search",
+      "type": "TestStepPass",
+      "duration": 7979,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user clicks on 'apple ipad in Tablets' in search",
+      "type": "TestStepPass",
+      "duration": 1251,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets the product list",
+      "type": "TestStepFail",
+      "screenshot": "test-results/12_Feb_2018_03_13_PM/img/TestingFlipkart_1bvtn1fjb361v55833.png",
+      "duration": 48435,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "For input string: \"EMI\"",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user clicks on addtocart button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NumberFormatException: For input string: \"EMI\"\r\n\tat .Then user gets the product list(scenarios/suite1.bdd:8)\r\n\tat java.lang.NumberFormatException.forInputString(Unknown Source)\r\n\tat java.lang.Integer.parseInt(Unknown Source)\r\n\tat java.lang.Integer.parseInt(Unknown Source)\r\n\tat com.testautomation.pages.SearchscreenTestPage.productdetails(SearchscreenTestPage.java:139)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

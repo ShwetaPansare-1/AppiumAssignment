@@ -1,0 +1,11 @@
+SCENARIO: TestingFlipkart
+META-DATA: {"description":"Flipkart","groups":["P1","P2","SMOKE"]}
+	
+	#TODO: call test steps
+	Given user skip the authentication
+	When user search for 'apple ipad' in search
+	And user clicks on 'apple ipad in Tablets' in search
+	Then user gets the product list 
+	When user clicks on addtocart button
+	Then user verify cart  
+END

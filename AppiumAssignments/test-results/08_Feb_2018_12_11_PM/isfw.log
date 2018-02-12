@@ -1,0 +1,148 @@
+[main] 12:11:42,639 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 12:11:42,645 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 12:11:42,646 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 12:11:42,648 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 12:11:42,649 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 12:11:42,847 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 12:11:42,859 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\WorkSpace_Qmetry\TestAutomation\resources. Found property files to load: 3
+[main] 12:11:42,882 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 12:11:42,882 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 12:11:42,882 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 12:11:42,882 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 12:11:42,883 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 12:11:42,884 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 12:11:42,884 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 12:11:42,884 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 12:11:42,884 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 12:11:42,884 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 12:11:42,896 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 12:11:42,896 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 12:11:42,897 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 12:11:42,899 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\WorkSpace_Qmetry\TestAutomation\resources. Found property files to load: 0
+[main] 12:11:42,904 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 12:11:42,905 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 12:11:42,905 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 12:11:42,905 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 12:11:42,905 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 12:11:42,905 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 12:11:42,906 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 12:11:42,907 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 12:11:42,907 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 12:11:42,907 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 12:11:42,907 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 12:11:42,907 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 12:11:42,908 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 12:11:43,127 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 12:11:43,130 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 12:11:43,131 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:11:43,134 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 12:11:43,136 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 12:11:43,136 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:11:43,138 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 12:11:43,141 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 12:11:43,141 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 12:11:43,142 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:11:43,149 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 12:11:43,150 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 12:11:43,150 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:11:43,156 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 12:11:43,156 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: TestingFlipkart
+[main] 12:11:43,424 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:appiumDriver,base_url:http://localhost:4725/wd/hub,sel_server:localhost,port:4725
+[main] 12:11:43,459 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: appiumDriver
+[Forwarding newSession on session null to remote] 12:11:44,067 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 12:11:44,075 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 12:11:44,076 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4725][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 12:11:44,089 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4725][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 12:11:44,090 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:4725
+[Forwarding newSession on session null to remote] 12:11:44,092 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:4725
+[Forwarding newSession on session null to remote] 12:11:44,095 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:50499<->127.0.0.1:4725
+[Forwarding newSession on session null to remote] 12:11:44,095 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 12:11:44,095 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 12:11:44,095 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 12:11:44,095 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 428
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4725
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_152)
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 12:11:44,097 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 428[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4725[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_152)[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:44,098 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"appPackage":"com.flipkart.android","deviceName":"192.168.227.101.5555","appActivity":"com.flipkart.android.activity.HomeFragmentHolderActivity","browser_name":"","appium-version":"4.1.2","newCommandTimeout":"120","automationName":"appium","takesScreenshot":true,"javascriptEnabled":"true","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","cssSelectorsEnabled":true}}"
+[Forwarding newSession on session null to remote] 12:11:54,428 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,428 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 1215[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4bf-4WhP/jW7CpGSQg/+IDjvHqDhXdY"[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 08 Feb 2018 06:41:54 GMT[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,429 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 12:11:54,430 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":"true","databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.flipkart.android","deviceName":"192.168.227.101.5555","appActivity":"com.flipkart.android.activity.HomeFragmentHolderActivity","browser_name":"","appium-version":"4.1.2","newCommandTimeout":120,"automationName":"appium","takesScreenshot":true,"javascriptEnabled":"true","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","cssSelectorsEnabled":true},"appPackage":"com.flipkart.android","deviceName":"192.168.227.101:5555","appActivity":"com.flipkart.android.activity.HomeFragmentHolderActivity","browser_name":"","appium-version":"4.1.2","newCommandTimeout":120,"automationName":"appium","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","cssSelectorsEnabled":true,"deviceUDID":"192.168.227.101:5555","platformVersion":"5.0","deviceScreenSize":"1080x1920","deviceModel":"Google Nexus 5 - 5.0.0 - API 21 - 1080x1920","deviceManufacturer":"unknown"},"sessionId":"44271093-73a7-4311-8a36-5eeaac8c5651"}"
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 1215
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4bf-4WhP/jW7CpGSQg/+IDjvHqDhXdY"
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 08 Feb 2018 06:41:54 GMT
+[Forwarding newSession on session null to remote] 12:11:54,444 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding newSession on session null to remote] 12:11:54,450 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 12:11:54,466 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4725] can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 12:11:54,467 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4725][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 12:11:54,535 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"using":"id","value":"com.flipkart.android:id/btn_skip"}
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,548 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,549 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,549 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4725][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,550 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4725][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,550 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/44271093-73a7-4311-8a36-5eeaac8c5651/elements HTTP/1.1
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/44271093-73a7-4311-8a36-5eeaac8c5651/elements HTTP/1.1
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 57
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4725
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_152)
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/44271093-73a7-4311-8a36-5eeaac8c5651/elements HTTP/1.1[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 57[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4725[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_152)[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,552 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,553 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElements on session 44271093-73a7-4311-8a36-5eeaac8c5651 to remote] 12:11:54,553 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.flipkart.android:id/btn_skip","using":"id"}"

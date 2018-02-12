@@ -1,0 +1,19 @@
+12:40:04 scenario.file.loc[Ljava.lang.String;@517cd4b
+12:40:04 loading BDD file: scenarios/suite1.bdd
+12:40:04 total test found: 1
+12:40:05 
+
+Executing scenario: TestingFlipkart - Flipkart
+12:40:05 pkg: com.qmetry.qaf.automation.step
+12:40:05 pkg: com.flipcartappappium
+12:40:05 Found duplicate step to load [] with [lower] prority then []
+12:40:05 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="user skip the authentication")
+public void userSkipTheAuthentication(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+12:40:05 Competed scenario: TestingFlipkart with status FAILURE

@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 12 15:22:16 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>245 seconds (245392 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.TestingFlipkart()'><b>TestingFlipkart</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (TestingFlipkart)<br>Test method: Flipkart<br/>
+<a href="#Output-1632497828" onClick='toggleBox("Output-1632497828", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1632497828" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1632497828">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user skip the authentication</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user search for 'apple ipad' in search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user clicks on 'apple ipad in Tablets' in search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on addtocart button</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then user verify cart <a href="test-results/12_Feb_2018_03_22_PM/img/TestingFlipkart_1ol39gj1xvda21775.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 6 seconds: Wait time out for added product inside the cart to be present
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11471', ip: '10.11.31.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: unknown</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 6 seconds: Wait time out for added product inside the cart to be present
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11471&apos;, ip: &apos;10.11.31.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: unknown
+	at .Then user verify cart(scenarios/suite1.bdd:10)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:499)
+	at com.testautomation.pages.SearchscreenTestPage.verifyCart(SearchscreenTestPage.java:190)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1632497828", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1632497828'><pre>org.openqa.selenium.TimeoutException: Timed out after 6 seconds: Wait time out for added product inside the cart to be present
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11471&apos;, ip: &apos;10.11.31.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: unknown
+	at .Then user verify cart(scenarios/suite1.bdd:10)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:499)
+	at com.testautomation.pages.SearchscreenTestPage.verifyCart(SearchscreenTestPage.java:190)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+</pre></div></td>
+<td>238</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

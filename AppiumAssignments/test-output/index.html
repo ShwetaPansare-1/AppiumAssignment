@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AppiumAssignments.scenarios.suite1.bdd">
+              <span class="suite-name border-failed">AppiumAssignments.scenarios.suite1.bdd</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AppiumAssignments.scenarios.suite1.bdd">
+                    <span>C:\Users\shwetambari.pansare.INFOSTRETCH\AppData\Local\Temp\testng-eclipse--1581179992\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AppiumAssignments.scenarios.suite1.bdd">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AppiumAssignments.scenarios.suite1.bdd">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AppiumAssignments.scenarios.suite1.bdd">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AppiumAssignments.scenarios.suite1.bdd">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AppiumAssignments.scenarios.suite1.bdd">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AppiumAssignments.scenarios.suite1.bdd">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AppiumAssignments.scenarios.suite1.bdd" class="hide-methods failed suite-AppiumAssignments.scenarios.suite1.bdd"> (hide)</a> <!-- hide-methods failed suite-AppiumAssignments.scenarios.suite1.bdd -->
+                      <a href="#" panel-name="suite-AppiumAssignments.scenarios.suite1.bdd" class="show-methods failed suite-AppiumAssignments.scenarios.suite1.bdd"> (show)</a> <!-- show-methods failed suite-AppiumAssignments.scenarios.suite1.bdd -->
+                    </span>
+                    <div class="method-list-content failed suite-AppiumAssignments.scenarios.suite1.bdd">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppiumAssignments.scenarios.suite1.bdd" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="TestingFlipkart">TestingFlipkart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AppiumAssignments.scenarios.suite1.bdd -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AppiumAssignments.scenarios.suite1.bdd" class="panel AppiumAssignments.scenarios.suite1.bdd">
+          <div class="suite-AppiumAssignments.scenarios.suite1.bdd-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestingFlipkart">
+                  </a> <!-- TestingFlipkart -->
+                  <span class="method-name">TestingFlipkart</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 6 seconds: Wait time out for added product inside the cart to be present
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11471&apos;, ip: &apos;10.11.31.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: unknown
+	at .Then user verify cart(scenarios/suite1.bdd:10)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:499)
+	at com.testautomation.pages.SearchscreenTestPage.verifyCart(SearchscreenTestPage.java:190)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Flipkart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AppiumAssignments.scenarios.suite1.bdd-class-failed -->
+        </div> <!-- panel AppiumAssignments.scenarios.suite1.bdd -->
+        <div panel-name="test-xml-AppiumAssignments.scenarios.suite1.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shwetambari.pansare.INFOSTRETCH\AppData\Local\Temp\testng-eclipse--1581179992\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AppiumAssignments.scenarios.suite1.bdd&quot;&gt;
+  &lt;parameter name=&quot;scenario.file.loc&quot; value=&quot;scenarios/suite1.bdd&quot;/&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;BDD Test&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;1&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD Test --&gt;
+&lt;/suite&gt; &lt;!-- AppiumAssignments.scenarios.suite1.bdd --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AppiumAssignments.scenarios.suite1.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AppiumAssignments.scenarios.suite1.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BDD Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AppiumAssignments.scenarios.suite1.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AppiumAssignments.scenarios.suite1.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">P1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestingFlipkart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">P2</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestingFlipkart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SMOKE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestingFlipkart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AppiumAssignments.scenarios.suite1.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AppiumAssignments.scenarios.suite1.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AppiumAssignments.scenarios.suite1.bdd');
+function tableData_AppiumAssignments.scenarios.suite1.bdd() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestingFlipkart')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(0, 3, 238624);
+window.suiteTableData['AppiumAssignments.scenarios.suite1.bdd']= { tableData: data, tableDiv: 'times-div-AppiumAssignments.scenarios.suite1.bdd'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-AppiumAssignments.scenarios.suite1.bdd">
+              </div> <!-- times-div-AppiumAssignments.scenarios.suite1.bdd -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AppiumAssignments.scenarios.suite1.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AppiumAssignments.scenarios.suite1.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestingFlipkart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user skip the authentication</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user search for 'apple ipad' in search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user clicks on 'apple ipad in Tablets' in search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on addtocart button</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then user verify cart <a href="test-results/12_Feb_2018_03_22_PM/img/TestingFlipkart_1ol39gj1xvda21775.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 6 seconds: Wait time out for added product inside the cart to be present
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11471', ip: '10.11.31.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: unknown</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AppiumAssignments.scenarios.suite1.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AppiumAssignments.scenarios.suite1.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@be64738)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@be64738)</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@be64738)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@be64738)</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestingFlipkart</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@be64738, [TestResult name=TestingFlipkart status=FAILURE method=scenarios.suit...)</span>
+                <span class="method-start">242289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@be64738)</span>
+                <span class="method-start">242291 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@be64738)</span>
+                <span class="method-start">242300 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@be64738)</span>
+                <span class="method-start">245459 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
